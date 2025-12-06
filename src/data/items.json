@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "title": "Stainless Steel Water Bottle",
+    "image": "https://m.media-amazon.com/images/I/517NxAIGK9L.jpg",
+    "description": "Leak-proof insulated water bottle.",
+    "price": 24.99
+  },
+  {
+    "id": 2,
+    "title": "Wireless Bluetooth Earbuds",
+    "image": "https://m.media-amazon.com/images/I/61Mn590rlnL.jpg",
+    "description": "Noise-cancelling, 24-hour battery life.",
+    "price": 49.99
+  },
+  {
+    "id": 3,
+    "title": "LED Desk Lamp",
+    "image": "https://m.media-amazon.com/images/I/61Or6TfwO9L.jpg",
+    "description": "Adjustable brightness, USB powered.",
+    "price": 18.49
+  },
+  {
+    "id": 4,
+    "title": "Mechanical Keyboard",
+    "image": "https://m.media-amazon.com/images/I/71GTESZlpGL.jpg",
+    "description": "RGB backlighting, tactile switches.",
+    "price": 89.99
+  },
+  {
+    "id": 5,
+    "title": "Sony WH-1000XM5 Premium Noise Canceling Headphones, Auto NC Optimizer, 30-Hour Battery, Alexa Voice Control, Black",
+    "image": "https://m.media-amazon.com/images/I/51aXvjzcukL._AC_SX679_.jpg",
+    "description": "Dive into an immersive audio experience with the Sony WH-1000XM5, a pair of top-tier noise cancelling headphones. Equipped with dual processors controlling 8 microphones, these noise cancelling headphones bluetooth offer unparalleled noise cancellation and superior call quality. Discover the brilliance of sound quality, meticulously crafted with the new Integrated Processor V1, in these over-ear headphones. Whether you're a casual listener or an audiophile, the Sony WH-1000XM5's superior sound quality in these over ear headphones will take your audio experience to a whole new level. Experience the clarity of hands-free calling with this wireless headset, equipped with 4 beamforming microphones, precise voice pickup, and advanced audio signal processing. A game-changer for those who frequently take calls on the go, these head phones guarantee clear and uninterrupted conversations. Revel in the long-lasting battery life of the Sony WH-1000XM5, offering up to 30 hours of playback with quick charging capabilities. This means you can enjoy 3 hours of playback with just a 3-minute charge, perfect for long commutes, flights, or when you're on the move and don't have time for a full charge. Enjoy the ultimate comfort with the Sony WH-1000XM5's ultra-comfortable, lightweight design featuring soft fit leather. These headphones ensure extended wear without discomfort, whether you're working, traveling, or just relaxing, they provide the ultimate comfort for all-day wear.",
+    "price": 249.99
+  },
+  {
+    "id": 6,
+    "title": "Smart LED Light Strip",
+    "image": "https://m.media-amazon.com/images/I/71tjdZg28vL._AC_SX342_SY445_QL70_FMwebp_.jpg",
+    "description": "Smart RGBIC Effects: RGBIC LED Strip lights for bedroom display multiple colors on one line at a time compared with traditional RGB lights. A colorful combination of LED strip lighting for bedroom brings a strong visual impact. (Not Support Alexa)",
+    "price": 14.99
+  },
+  {
+    "id": 7,
+    "title": "Portable Phone Charger 20000mAh",
+    "image": "https://m.media-amazon.com/images/I/61eUSCwA0QL._AC_SX679_.jpg",
+    "description": "Fast charging power bank.",
+    "price": 34.95
+  },
+  {
+    "id": 8,
+    "title": "USB-C Hub 6-in-1",
+    "image": "https://m.media-amazon.com/images/I/71khUQvGlzL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+    "description": "HDMI, USB, SD card reader.",
+    "price": 22.99
+  },
+  {
+    "id": 9,
+    "title": "Ergonomic Office Chair",
+    "image": "https://m.media-amazon.com/images/I/71qUOCKlFDL._AC_SX679_.jpg",
+    "description": "Mesh back, lumbar support.",
+    "price": 159.99
+  },
+  {
+    "id": 10,
+    "title": "Ceramic Coffee Mug Set",
+    "image": "https://m.media-amazon.com/images/I/61MnQIPU9KL._AC_SX679_.jpg",
+    "description": "Set of 4 large modern mugs.",
+    "price": 27.50
+  },
+  {
+    "id": 11,
+    "title": "Electric Milk Frother",
+    "image": "https://m.media-amazon.com/images/I/811-tPSBMML._AC_SX679_.jpg",
+    "description": "One-touch operation foamer.",
+    "price": 15.99
+  },
+  {
+    "id": 12,
+    "title": "4K Streaming Stick",
+    "image": "https://m.media-amazon.com/images/I/81xr+BrYBwL._AC_SX679_.jpg",
+    "description": "Supports 4K HDR, Dolby Vision.",
+    "price": 39.99
+  },
+  {
+    "id": 13,
+    "title": "Laptop Cooling Pad",
+    "image": "https://m.media-amazon.com/images/I/71jUT5npz-L._AC_SX679_.jpg",
+    "description": "Quiet fans, adjustable angles.",
+    "price": 26.99
+  },
+  {
+    "id": 14,
+    "title": "Smart WiFi Plug",
+    "image": "https://m.media-amazon.com/images/I/51zoLDBO0wL._SX522_.jpg",
+    "description": "Works with Alexa and Google.",
+    "price": 12.99
+  },
+  {
+    "id": 15,
+    "title": "Portable Mini Projector",
+    "image": "https://m.media-amazon.com/images/I/71U0ezDt70L._AC_SX679_.jpg",
+    "description": "1080p supported, compact size.",
+    "price": 59.99
+  },
+  {
+    "id": 16,
+    "title": "Electric Toothbrush",
+    "image": "https://m.media-amazon.com/images/I/61kcec5RGUL._AC_SX679_.jpg",
+    "description": "5 brushing modes, long battery.",
+    "price": 29.95
+  },
+  {
+    "id": 17,
+    "title": "Fitness Resistance Bands",
+    "image": "https://m.media-amazon.com/images/I/61kcec5RGUL._AC_SX679_.jpg",
+    "description": "Set of 5 with carrying bag.",
+    "price": 14.49
+  },
+  {
+    "id": 18,
+    "title": "Nonstick Frying Pan",
+    "image": "https://m.media-amazon.com/images/I/813pNQFeaeL._AC_SX679_.jpg",
+    "description": "12-inch, PFOA-free coating.",
+    "price": 32.99
+  },
+  {
+    "id": 19,
+    "title": "Gaming Mouse",
+    "image": "https://m.media-amazon.com/images/I/51uy8gOG-iL._AC_SX679_.jpg",
+    "description": "Programmable buttons, great for gaming.",
+    "price": 84.49
+  },
+  {
+    "id": 20,
+    "title": "Stainless Steel Knife Set",
+    "image": "https://m.media-amazon.com/images/I/71whgZxsROL._AC_SY300_SX300_QL70_FMwebp_.jpg",
+    "description": "7-piece kitchen knife set.",
+    "price": 45.00
+  }
+]
