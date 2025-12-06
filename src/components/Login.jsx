@@ -17,7 +17,7 @@ export default function Login({ onLogin, onSwitchToSignup, darkMode, onToggleDar
       return;
     }
 
-    // simulate login, in real app, this would call an API
+    // simulate login, in real app, this would call an API or something
     onLogin({ email, password });
   };
 
