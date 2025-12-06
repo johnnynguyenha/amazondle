@@ -1,6 +1,4 @@
-/* Wordle-inspired styling with Dark/Light Mode */
-
-/* CSS Variables for theming */
+/* css  */
 :root {
   --bg-primary: #24242a;
   --bg-secondary: #ffffff;
@@ -14,7 +12,7 @@
   --input-bg-light: #ffffff;
 }
 
-/* Light mode variables */
+/* light mode variables */
 .app-wrapper.light {
   --bg-primary: #ffffff;
   --bg-secondary: #f3f4f6;

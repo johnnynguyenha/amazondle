@@ -5,7 +5,7 @@ import items from "../data/items.json";
 import LogoutConfirm from "./LogoutConfirm";
 import PlayHistoryModal from "./SettingsModal";
 import AboutModal from "./AboutModal";
-import "../app.css";
+import "../App.css";
 
 export default function DailyPriceGame({ darkMode, setDarkMode, isAuthenticated, user, onShowAuth, onLogout }) {
   const [item, setItem] = useState(null);

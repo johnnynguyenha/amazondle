@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import "./Auth.css";
-import "../app.css";
+import "../App.css";
 
 export default function Login({ onLogin, onSwitchToSignup, darkMode, onToggleDarkMode }) {
   const [email, setEmail] = useState("");

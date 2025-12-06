@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import "./Auth.css";
-import "../app.css";
+import "../App.css";
 
 export default function PlayHistoryModal({ darkMode, user, onClose, onShowAuth }) {
   const [playHistory, setPlayHistory] = useState([]);
