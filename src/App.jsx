@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import DailyPriceGame from "./components/DailyPriceGame";
 import AuthModal from "./components/AuthModal";
-import "./app.css";
+import "./App.css";
 
 export default function App() {
   // Initialize darkMode from localStorage or default to true
@@ -15,7 +15,7 @@ export default function App() {
   const [darkMode, setDarkMode] = useState(getInitialDarkMode);
   const [user, setUser] = useState(null);
 
-  // Load user from localStorage on mount
+  // load user from localStorage on mount
   useEffect(() => {
     const savedUser = localStorage.getItem("amazondle_user");
     
@@ -25,13 +25,13 @@ export default function App() {
     }
   }, []);
 
-  // Save dark mode preference whenever it changes
+  // save dark mode preference whenever it changes
   useEffect(() => {
     localStorage.setItem("amazondle_darkMode", darkMode.toString());
   }, [darkMode]);
 
   const handleLogin = (credentials) => {
-    // Check if user exists in localStorage
+    // check if user exists in localStorage
     const users = JSON.parse(localStorage.getItem("amazondle_users") || "[]");
     const foundUser = users.find(
       u => u.email === credentials.email && u.password === credentials.password
@@ -49,7 +49,7 @@ export default function App() {
   };
 
   const handleSignup = (credentials) => {
-    // Check if user already exists
+    // check if user already exists
     const users = JSON.parse(localStorage.getItem("amazondle_users") || "[]");
     const existingUser = users.find(u => u.email === credentials.email);
 
@@ -57,7 +57,7 @@ export default function App() {
       return { success: false, error: "Email already registered" };
     }
 
-    // Create new user
+    // create new user
     const newUser = {
       email: credentials.email,
       password: credentials.password,

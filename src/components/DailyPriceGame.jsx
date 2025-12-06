@@ -394,9 +394,9 @@ export default function DailyPriceGame({ darkMode, setDarkMode, isAuthenticated,
         <h1 className="wordle-title">AMAZONDLE</h1>
       </motion.header>
 
-      {/* Main Game Area */}
+      {/* main game area */}
       <main className="game-area">
-        {/* Item Description Section */}
+        {/* item description section */}
         <motion.div 
           className="item-info"
           initial={{ opacity: 0, y: 10 }}
@@ -407,7 +407,7 @@ export default function DailyPriceGame({ darkMode, setDarkMode, isAuthenticated,
           <p className="item-description">{item.description}</p>
         </motion.div>
 
-        {/* Item Image */}
+        {/* item image */}
         <motion.div 
           className="image-container"
           initial={{ opacity: 0, scale: 0.9 }}
@@ -421,7 +421,7 @@ export default function DailyPriceGame({ darkMode, setDarkMode, isAuthenticated,
           />
         </motion.div>
 
-        {/* Guesses Display */}
+        {/* guesses display */}
         <AnimatePresence>
           {guesses.length > 0 && (
             <motion.div 
@@ -468,7 +468,7 @@ export default function DailyPriceGame({ darkMode, setDarkMode, isAuthenticated,
           )}
         </AnimatePresence>
 
-        {/* Guess Section */}
+        {/* guess section */}
         <AnimatePresence>
           {!gameOver && !hasPlayedToday && (
             <motion.div 
@@ -513,7 +513,7 @@ export default function DailyPriceGame({ darkMode, setDarkMode, isAuthenticated,
           )}
         </AnimatePresence>
 
-        {/* Final Result Display */}
+        {/* final result display */}
         <AnimatePresence>
           {(gameOver || hasPlayedToday) && (
             <motion.div 
@@ -603,7 +603,7 @@ export default function DailyPriceGame({ darkMode, setDarkMode, isAuthenticated,
       </main>
       </motion.div>
 
-      {/* Logout Confirmation Modal */}
+      {/* logout confirmation modal */}
       {showLogoutConfirm && (
         <LogoutConfirm
           darkMode={darkMode}
@@ -615,7 +615,7 @@ export default function DailyPriceGame({ darkMode, setDarkMode, isAuthenticated,
         />
       )}
 
-      {/* Play History Modal */}
+      {/* play history modal */}
       {showPlayHistory && (
         <PlayHistoryModal
           darkMode={darkMode}
@@ -625,7 +625,7 @@ export default function DailyPriceGame({ darkMode, setDarkMode, isAuthenticated,
         />
       )}
 
-      {/* About Modal */}
+      {/* about modal */}
       {showAbout && (
         <AboutModal
           darkMode={darkMode}
